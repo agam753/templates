@@ -109,25 +109,7 @@ void sieve(ll n){
 
 
 void run(){
-	int n;
-	cin>>n;
-
-	vector<int> arr(n);
-	FOR(i, 0, n-1) cin>>arr[i];
-
-	if(arr[0] != arr[n-1]){
-		cout << "NO" << endl;
-		return;
-	}
-
-	FOR(i, 1, n-2){
-		if(arr[i] < arr[0]){
-			cout << "NO" << endl;
-			return;
-		}
-	}
-
-	cout << "YES" << endl;
+	
 }
 
 int main(){
